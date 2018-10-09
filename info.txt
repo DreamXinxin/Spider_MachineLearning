@@ -1,0 +1,26 @@
+新闻网站有：
+finance.yahoo.com/cryptocurrencies
+www.bitcoin.com
+wn.com；
+smartereum.com
+
+
+Column names in csv:
+Channel (int): latest articles, most popular, press releases, in case you missed it, the daily, exchanges, in case you missed it. Allow multiple channels for one news.
+Source (string): such as Yahoo Finance Video
+Title (string)
+Summary (string)
+HasVideo (boolean)
+DateTime (string): 1. figure out the time zone used in the website and convert to UTC 2. get DateTime in format: 2018-09-25T05:53:31.000Z
+PicNum (int): how many pictures in the news content page, not including elsewhere on the news content page, such as the side bar or AD.
+URLNum (int): same as above
+HasVideo (boolean): 0 or 1
+Text (string): the news content, with URL title (do not need the real link), formatting as: text1 ???url title??? text2
+
+
+
+
+
+
+
+
