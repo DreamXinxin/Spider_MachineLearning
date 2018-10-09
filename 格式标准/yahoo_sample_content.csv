@@ -1,0 +1,3 @@
+Content
+put the whole content of one news in this line, if the text has newline char (such as \n), replace newline char to space char
+put the whole content of another news in this line, if the text has newline char (such as \n), replace newline char to space char
